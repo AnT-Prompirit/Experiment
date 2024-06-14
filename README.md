@@ -77,6 +77,9 @@
 ### Emotion Labels
 ### Style Modifiers
 #### S1 (Caption)
+1. 랭체인_스타일키워드_레이블링.ipynb 실행: 아르테미스 데이터셋을 라마를 이용해 레이블링한다.
+2. 클러스터링_임베딩_차원축소.ipynb 실행: 레이블링 한 데이터를 이용해 클러스터링 진행
+3. 최종실험데이터_만들기.ipynb 실행: 클러스트를 만든 후 입력 데이터에 따라 스타일 키워드 추출하는 코드
 #### S2 (RAG)
 1. S2_get_answer.ipynb 실행: 'styleDB' 폴더를 RAG DB로 연결, LLaMA-2 답변 생성 후 'S2_answer.csv' 파일로 저장
 2. S2_extract_keyword_from_answer.ipynb 실행: LLaMA-2 답변에서 Style Modifiers만 추출하여 'S2_modifiers.csv' 파일로 저장
