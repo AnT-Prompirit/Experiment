@@ -72,3 +72,11 @@
 **⇒ E3+﻿S2을 Main Process 파이프라인으로 채택**
 
 : 원본 텍스트 → 감정 레이블 + 토큰화 된 텍스트 + 감정 동의어 3개 + 스타일 키워드
+
+## 실험 코드 실행 방법
+### Emotion Labels
+### Style Modifiers
+#### S1 (Caption)
+#### S2 (RAG)
+1. S2_get_answer.ipynb 실행: 'styleDB' 폴더를 RAG DB로 연결, LLaMA-2 답변 생성 후 'S2_answer.csv' 파일로 저장
+2. S2_extract_keyword_from_answer.ipynb 실행: LLaMA-2 답변에서 Style Modifiers만 추출하여 'S2_modifiers.csv' 파일로 저장
