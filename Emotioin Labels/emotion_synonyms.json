@@ -1,0 +1,75 @@
+{
+    "anger": [
+        "wrath",
+        "see red",
+        "frenzy",
+        "angriness",
+        "exasperation",
+        "ire",
+        "aggressiveness",
+        "acrimoniousness",
+        "choler",
+        "antagonism"
+    ],
+    "disgust": [
+        "nauseate",
+        "blame",
+        "aberrance",
+        "gross out",
+        "abjectness",
+        "detestation",
+        "awfulness",
+        "sicken"
+    ],
+    "fear": [
+        "gutlessness",
+        "dread",
+        "concern",
+        "afraidness",
+        "angst",
+        "fearfulness",
+        "creepiness",
+        "fright"
+    ],
+    "sadness": [
+        "crestfallenness",
+        "dejection",
+        "lugubriousness",
+        "gloominess",
+        "cheerlessness",
+        "sorrow",
+        "sorrowfulness",
+        "unhappiness",
+        "disheartenedness"
+    ],
+    "contentment": [
+        "gratification",
+        "light heartedness",
+        "fulfilment",
+        "frivolity",
+        "satiation"
+    ],
+    "excitement": [
+        "fervour",
+        "exhilaration",
+        "love",
+        "passion",
+        "desire succeed",
+        "fervor",
+        "excitation"
+    ],
+    "awe": [
+        "veneration",
+        "revere",
+        "reverence",
+        "venerate",
+        "awestruck"
+    ],
+    "amusement": [
+        "pleasure",
+        "fun",
+        "enjoyment",
+        "happiness",
+        "entertainment"
+    ]
+}
