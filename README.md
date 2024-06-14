@@ -83,3 +83,4 @@
 #### S2 (RAG)
 1. S2_get_answer.ipynb 실행: 'styleDB' 폴더를 RAG DB로 연결, LLaMA-2 답변 생성 후 'S2_answer.csv' 파일로 저장
 2. S2_extract_keyword_from_answer.ipynb 실행: LLaMA-2 답변에서 Style Modifiers만 추출하여 'S2_modifiers.csv' 파일로 저장
+### Data Analysis
