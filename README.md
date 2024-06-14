@@ -84,3 +84,11 @@
 1. S2_get_answer.ipynb 실행: 'styleDB' 폴더를 RAG DB로 연결, LLaMA-2 답변 생성 후 'S2_answer.csv' 파일로 저장
 2. S2_extract_keyword_from_answer.ipynb 실행: LLaMA-2 답변에서 Style Modifiers만 추출하여 'S2_modifiers.csv' 파일로 저장
 ### Data Analysis
+1. 정규화_평균_비교.ipynb : ITA, IEA, Aethetic Score의 정규화 코드
+2. ImageGenerater_ClipScore_PickScore_AstheticScore.ipynb
+   - Overview:  This project leverages the power of Stable Diffusion for image generation, enhanced with evaluation metrics including CLIP Score, PickScore, and Aesthetic Score. These metrics provide insights into the similarity between generated images and prompts, aesthetic quality, and alignment with human preferences.
+   - Key Components:
+       - **Stable Diffusion Image Generation**: Utilizes [Stable Diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-1) for generating high-quality images based on textual descriptions.
+       - **CLIP Score**: Measures the similarity between generated images and prompts, as proposed by Radford et al., 2021.
+       - **Aesthetic Score**: Evaluates the aesthetic quality of individual images following the methodology of Schuhmann et al., 2022. Implementation details are available on [GitHub](https://github.com/LAION-AI/aesthetic-predictor).
+
