@@ -75,6 +75,7 @@
 
 ## 실험 코드 실행 방법
 ### Emotion Labels
+#### E1 ()
 ### Style Modifiers
 #### S1 (Caption)
 1. 랭체인_스타일키워드_레이블링.ipynb 실행: 아르테미스 데이터셋을 라마를 이용해 레이블링한다.
@@ -91,4 +92,4 @@
        - **Stable Diffusion Image Generation**: Utilizes [Stable Diffusion](https://huggingface.co/stabilityai/stable-diffusion-2-1) for generating high-quality images based on textual descriptions.
        - **CLIP Score**: Measures the similarity between generated images and prompts, as proposed by Radford et al., 2021.
        - **Aesthetic Score**: Evaluates the aesthetic quality of individual images following the methodology of Schuhmann et al., 2022. Implementation details are available on [GitHub](https://github.com/LAION-AI/aesthetic-predictor).
-
+3. 
